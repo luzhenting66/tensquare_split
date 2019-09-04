@@ -8,3 +8,7 @@ spring:
       host: 192.168.8.128
       port: 27017
       database: splitdb
+    elasticsearch:
+      cluster-nodes: 192.168.8.128:9300
+      repositories:
+        enabled: true
